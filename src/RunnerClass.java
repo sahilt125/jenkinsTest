@@ -18,12 +18,14 @@ public class RunnerClass {
       Assert.assertEquals(actualTitle, expectedTitle);
       System.out.println("Running f function");
       System.out.println("Updated");
+      System.out.println("Hello Word Prateek");
       
   }
   @BeforeMethod
   public void openBrowser() {
 	  System.setProperty("webdriver.chrome.driver", "C:/ChromeDriver/chromedriver.exe");
 	  driver = new ChromeDriver();
+	  
 	  System.out.println("launching firefox browser");
 	  System.out.println("Running f function");
   }
