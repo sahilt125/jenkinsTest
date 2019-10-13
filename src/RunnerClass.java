@@ -22,7 +22,7 @@ public class RunnerClass {
   }
   @BeforeMethod
   public void openBrowser() {
-	  System.setProperty("webdriver.chrome.driver", "C:/ChromeDriver/chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:/Users/Sahil/eclipse-workspace/cucumber_practice/drivers/chromedriver.exe");
 	  driver = new ChromeDriver();
 	  System.out.println("launching firefox browser");
 	  System.out.println("Running f function");
