@@ -13,7 +13,7 @@ public class RunnerClass {
   @Test
   public void f() {  
 	  driver.get(baseUrl);
-      String expectedTitle = "Welcome: Mercury Tours 1234657";
+      String expectedTitle = "Welcome: Mercury Tours";
       String actualTitle = driver.getTitle();
       Assert.assertEquals(actualTitle, expectedTitle);
       System.out.println("Running f function");
